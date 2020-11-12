@@ -115,7 +115,7 @@ header{
     }
 
     h2{
-        font-size: 1rem;
+        font-size: 1.2rem;
         margin-bottom: -2rem;
     }
 
@@ -124,7 +124,7 @@ header{
       background-position: left top;
         padding: 0px 0px 16px 20px;
         margin-top: 20px;
-        font-size: 13px;
+        font-size: 18px;
     }
     #image{
     
@@ -161,7 +161,7 @@ header{
 
     li{
        
-        font-size: 14px;
+        font-size: 18px;
     }
 
 }
