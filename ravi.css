@@ -126,6 +126,12 @@ header{
         margin-top: 20px;
         font-size: 18px;
     }
+    #img-div{
+       display:flex;
+       width: 110%;
+     }
+
+
     #image{
     
         width: 100%;
@@ -134,7 +140,9 @@ header{
         
     }
     figure{
-        padding: 0.5rem;
+        padding:1rem;
+        width:100%;
+        align-self: center;
     }
     .left{
         width: 90%;
