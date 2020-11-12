@@ -47,14 +47,12 @@ margin-top: 4rem;
 
 }
 
-.left{
+.left, .right{
     width: 60%;
     
 }
 
-.right{
-    width: 60%;
-}
+
 
 li{
  background-image: url("microphone.png");background-repeat: no-repeat;
@@ -124,7 +122,7 @@ header{
       background-position: left top;
         padding: 0px 0px 16px 20px;
         margin-top: 20px;
-        font-size: 15px;
+        font-size: 14px;
     }
     #img-div{
        display:flex;
@@ -144,16 +142,13 @@ header{
         width:100%;
         align-self: center;
     }
-    .left{
-        width: 90%;
+    .left, .right{
+        width: 100%;
         margin-left: -50px;
         
     }
     
-    .right{
-        width: 90%;
-        margin-left: -50px;
-    }
+   
 
     .quote{
         position: relative;
