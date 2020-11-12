@@ -124,7 +124,7 @@ header{
       background-position: left top;
         padding: 0px 0px 16px 20px;
         margin-top: 20px;
-        font-size: 16px;
+        font-size: 15px;
     }
     #img-div{
        display:flex;
@@ -159,7 +159,7 @@ header{
         position: relative;
         bottom: -3rem;
         margin-top: -2.5rem;
-        font-size: 15px;
+        font-size: 16px;
     }
 
     
