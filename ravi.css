@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+:root{
+    --color1: #494848;
+    --font: "Raleway";
+}
+
+#container{
+    overflow-x: hidden;
+    background-color: rgb(219, 213, 213);
+    padding: 0rem;
+    font-family: var(--font);
+}
+
+h2,h1{
+    
+    text-align: center;
+    color: var(--color1);
+    overflow: hidden;
+
+}
+
+a{
+    text-decoration: none;
+}
+hr{
+border-top: 1px solid var(--color1);
+width: 70%;
+margin-top: 4rem;
+}
+
+#main{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#list{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:var(--color1);
+
+}
+
+.left{
+    width: 60%;
+    
+}
+
+.right{
+    width: 60%;
+}
+
+li{
+ background-image: url("./../images/microphone.png");background-repeat: no-repeat;
+ background-size: 20px;
+ margin: 0;
+ list-style: none;
+ background-position: left center;
+ padding: 16px 0px 16px 54px;
+ font-size: 15px;
+ 
+
+    
+}
+
+
+
+figure{
+    
+    background-color: rgb(231, 222, 222);
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+#image{
+    
+    width: 80%;
+    height: auto;
+    padding-bottom: 1rem;
+    
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.quote{
+    position: relative;
+    font-size: 1rem;
+    text-align: center;
+    font-style: italic;
+    padding: 0rem 2rem 0 2rem;
+}
+
+#footer{
+    margin-top: 3rem;text-align: center;
+}
+
+@media( max-width:740px){
+    h1{
+        font-size: 1.4rem;
+        margin-top: 2rem;
+    }
+
+    h2{
+        font-size: 1rem;
+        margin-bottom: -2rem;
+    }
+
+    li{
+        background-size: 13px;
+      background-position: left top;
+        padding: 0px 0px 16px 20px;
+        margin-top: 20px;
+        font-size: 13px;
+    }
+    #image{
+    
+        width: 100%;
+        height: 100%;
+        padding-bottom: 1rem;
+        
+    }
+    figure{
+        padding: 0.5rem;
+    }
+    .left{
+        width: 90%;
+        margin-left: -50px;
+        
+    }
+    
+    .right{
+        width: 90%;
+        margin-left: -50px;
+    }
+
+    .quote{
+        position: relative;
+        bottom: -3rem;
+        margin-top: -2.5rem;
+    }
+
+    
+   
+}
+
+@media (max-width: 830px){
+
+    li{
+       
+        font-size: 14px;
+    }
+
+}
